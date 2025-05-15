@@ -1,0 +1,5 @@
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.csproj.AssemblyReference.cache
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.AssemblyInfoInputs.cache
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.AssemblyInfo.cs
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.csproj.CoreCompileInputs.cache
