@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "SRRVKbRxlDWSIMpfTJnJ+xq2dX/YFcdRvClaSYL9CU7oCZMK2P4H1X/tSHXvIJZgtzthq2dZeAyM4gRUKoP46g==",
+  "dgSpecHash": "+oMGYkZ+aiHNI4UjUmI19n/iHiLAGHAlLAZkbz3Srw0lFLOy0K/zsxexbUQjebmptqpXCxfxoauEdplkZ2kDhg==",
   "success": true,
   "projectFilePath": "/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Tests/DeveloperStoreSales.Tests.csproj",
   "expectedPackageFiles": [
     "/home/giovani-gama/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/giovani-gama/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/home/giovani-gama/.nuget/packages/fluentassertions/8.2.0/fluentassertions.8.2.0.nupkg.sha512",
+    "/home/giovani-gama/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/home/giovani-gama/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/home/giovani-gama/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.0.0/fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
     "/home/giovani-gama/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
     "/home/giovani-gama/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/giovani-gama/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

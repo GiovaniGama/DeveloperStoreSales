@@ -11,5 +11,9 @@ public class SalesDbContext(DbContextOptions<SalesDbContext> options) : DbContex
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<AppUser>()
+            .Property(u => u.Id)
+            .HasDefaultValueSql("gen_random_uuid()");
     }
 }
