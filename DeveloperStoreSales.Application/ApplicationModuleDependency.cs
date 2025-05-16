@@ -1,5 +1,8 @@
 
+using DeveloperStoreSales.Application.Auth.Handlers;
 using DeveloperStoreSales.Application.User.Handlers;
+using DeveloperStoreSales.Infrastructure.Persistence.Repositories.User;
+using DeveloperStoreSales.Infrastructure.Repositories.IUser;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,7 +23,8 @@ namespace DeveloperStoreSales.Application
             });
 
             services.AddScoped<CreateUserCommandHandler, CreateUserCommandHandler>();
-
+            services.AddScoped<AuthLoginCommandHandler, AuthLoginCommandHandler>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;
         }

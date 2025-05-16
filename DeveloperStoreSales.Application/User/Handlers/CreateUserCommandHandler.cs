@@ -1,29 +1,22 @@
 using MediatR;
-using DeveloperStoreSales.Domain.Entities;
-using DeveloperStoreSales.Infrastructure.Persistence;
-using DeveloperStoreSales.Application.User.Commands;
-using Microsoft.AspNetCore.Identity;
 using DeveloperStoreSales.Domain.Entities.User;
-using Microsoft.EntityFrameworkCore;
+using DeveloperStoreSales.Application.User.Commands;
+using DeveloperStoreSales.Infrastructure.Repositories.IUser;
+using Microsoft.AspNetCore.Identity;
 
 namespace DeveloperStoreSales.Application.User.Handlers;
 
-public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
+public class CreateUserCommandHandler(
+    IUserRepository userRepository,
+    IPasswordHasher<AppUser> passwordHasher) : IRequestHandler<CreateUserCommand, Guid>
 {
-    private readonly SalesDbContext _context;
-    private readonly IPasswordHasher<AppUser> _passwordHasher;
-
-    public CreateUserCommandHandler(SalesDbContext context, IPasswordHasher<AppUser> passwordHasher)
-    {
-        _context = context;
-        _passwordHasher = passwordHasher;
-    }
+    private readonly IUserRepository _userRepository = userRepository;
+    private readonly IPasswordHasher<AppUser> _passwordHasher = passwordHasher;
 
     public async Task<Guid> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
-        var existingUser = await _context.Users
-            .FirstOrDefaultAsync(u => u.Email == request.Email, cancellationToken);
-
+        var existingUser = await _userRepository.GetByEmailAsync(request.Email);
+        Console.WriteLine($"Email: {request.Email}");
         if (existingUser != null)
         {
             throw new InvalidOperationException("Já existe um usuário cadastrado com esse email.");
@@ -39,8 +32,7 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
 
         user.Password = _passwordHasher.HashPassword(user, request.Password);
 
-        _context.Users.Add(user);
-        await _context.SaveChangesAsync(cancellationToken);
+        await _userRepository.AddAsync(user);
 
         return user.Id;
     }
