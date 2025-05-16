@@ -9,3 +9,4 @@
 /home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Domain/obj/Debug/net8.0/refint/DeveloperStoreSales.Domain.dll
 /home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Domain/obj/Debug/net8.0/DeveloperStoreSales.Domain.pdb
 /home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Domain/obj/Debug/net8.0/ref/DeveloperStoreSales.Domain.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Domain/obj/Debug/net8.0/DeveloperStoreSales.Domain.sourcelink.json

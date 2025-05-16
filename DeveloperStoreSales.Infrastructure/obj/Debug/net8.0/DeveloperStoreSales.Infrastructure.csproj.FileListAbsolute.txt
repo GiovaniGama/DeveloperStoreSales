@@ -3,3 +3,16 @@
 /home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.AssemblyInfoInputs.cache
 /home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.AssemblyInfo.cs
 /home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.csproj.CoreCompileInputs.cache
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/bin/Debug/net8.0/DeveloperStoreSales.Infrastructure.deps.json
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/bin/Debug/net8.0/DeveloperStoreSales.Infrastructure.runtimeconfig.json
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/bin/Debug/net8.0/DeveloperStoreSales.Infrastructure.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/bin/Debug/net8.0/DeveloperStoreSales.Infrastructure.pdb
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/bin/Debug/net8.0/DeveloperStoreSales.Domain.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/bin/Debug/net8.0/DeveloperStoreSales.Domain.pdb
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.sourcelink.json
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.csproj.CopyComplete
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/refint/DeveloperStoreSales.Infrastructure.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.pdb
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/DeveloperStoreSales.Infrastructure.genruntimeconfig.cache
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.Infrastructure/obj/Debug/net8.0/ref/DeveloperStoreSales.Infrastructure.dll

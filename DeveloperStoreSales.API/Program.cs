@@ -6,6 +6,7 @@ using DeveloperStoreSales.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.Metadata;
 using DeveloperStoreSales.Domain.Entities.User;
+using DeveloperStoreSales.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
