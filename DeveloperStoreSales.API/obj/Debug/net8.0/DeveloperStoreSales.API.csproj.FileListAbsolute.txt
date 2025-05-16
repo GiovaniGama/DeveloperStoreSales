@@ -159,3 +159,11 @@
 /home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/FluentValidation.dll
 /home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
 /home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/giovani-gama/Documents/developer/DeveloperStoreSales/DeveloperStoreSales.API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
