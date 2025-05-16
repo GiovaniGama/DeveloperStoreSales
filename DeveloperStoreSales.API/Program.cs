@@ -6,6 +6,7 @@ using DeveloperStoreSales.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.Metadata;
 using DeveloperStoreSales.Domain.Entities.User;
+using DeveloperStoreSales.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,10 +15,6 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<SalesDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddMediatR(cfg =>
-{
-    cfg.RegisterServicesFromAssembly(typeof(AssemblyReference).Assembly);
-});
 
 builder.Services.AddScoped<IPasswordHasher<AppUser>, PasswordHasher<AppUser>>();
 
@@ -25,6 +22,7 @@ builder.Services.AddScoped<IPasswordHasher<AppUser>, PasswordHasher<AppUser>>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddApplication();
 
 var app = builder.Build();
 
