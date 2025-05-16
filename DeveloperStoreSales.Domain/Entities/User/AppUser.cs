@@ -1,0 +1,10 @@
+namespace DeveloperStoreSales.Domain.Entities.User
+{
+    public class AppUser
+    {
+        public Guid Id { get; set; }
+        public required string Name { get; set; }
+        public required string Email { get; set; }
+        public required string Password { get; set; }
+    }
+}
